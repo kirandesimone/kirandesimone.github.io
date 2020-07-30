@@ -12,7 +12,9 @@ function Navbar() {
             <Toolbar className="nav-container">
                 <Fragment> 
                     <Link to="/">
-                        <h1> Kiran DeSimone </h1>
+                        <Button color="secondary">
+                            Home
+                        </Button> 
                     </Link>
                     <Link to="/experience">
                         <Button color="secondary">
