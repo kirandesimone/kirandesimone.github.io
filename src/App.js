@@ -8,8 +8,9 @@ import Project from './Components/Project';
 
 
 function App() {
+  
   return (
-    <div className="App">
+    <div>
       <Router>
         <Navbar></Navbar>
         <div className="container">

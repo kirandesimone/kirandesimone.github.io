@@ -7,7 +7,7 @@ import Typography from '@material-ui/core/Typography';
 
 function ExperienceCard(props) {
     return(
-        <Card>
+        <Card raised>
             <CardMedia/>
             <CardContent>
                 <Typography gutterBottom variant="h5" component="h2">
