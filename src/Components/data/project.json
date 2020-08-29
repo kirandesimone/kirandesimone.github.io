@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "WalkPHL",
+        "description": "This application was built for people visiting the city of Philadelphia. Travelers can earn badges for first time visits at any specified landmark",
+        "picture": ""
+    },
+    {
+        "id": 2,
+        "name": "AlumniPortal",
+        "description": "After students graduate from the coding bootcamp Tech Elevator, they will be invited to join the alumni portal where the graduates can share information with each other",
+        "picture": ""
+    },
+    {
+        "id": 3,
+        "name": "SocialApe",
+        "description": "Users can write posts and share with the global feed (Twitter clone)",
+        "picture": ""
+    }
+]

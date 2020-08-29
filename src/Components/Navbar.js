@@ -25,11 +25,6 @@ function Navbar() {
                             Home
                         </Button> 
                     </Link>
-                    <Link to="/experience">
-                        <Button color="secondary">
-                            Experience
-                        </Button>
-                    </Link>
                     <Link to="/projects">
                         <Button color="secondary">
                             Projects

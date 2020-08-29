@@ -3,8 +3,10 @@ import Grid from '@material-ui/core/Grid';
 import Information from './Information';
 import Experience from './Experience';
 import Project from './Project';
+import Description from './Description';
 import { makeStyles } from '@material-ui/core/styles';
 import headshot from '../Assets/headshot-Kiran.jpg';
+import Typography from '@material-ui/core/Typography';
 
 const useStyles = makeStyles({
     image_wrapper: {
@@ -23,7 +25,7 @@ const useStyles = makeStyles({
 function Home() {
     const classes = useStyles();
     return(
-        <div>
+        <div className="container">
             <div className={classes.image_wrapper}>
                 <img src={headshot} alt="headshot" className={classes.profile_image}/>
             </div>
@@ -36,7 +38,7 @@ function Home() {
                             <Information/>
                         </Grid>
                         <Grid item xs={7}>
-                            <Information/>
+                            <Description/>
                         </Grid>
                     </Grid>
                 </Grid>
