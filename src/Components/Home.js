@@ -3,10 +3,8 @@ import Grid from '@material-ui/core/Grid';
 import Information from './Information';
 import Experience from './Experience';
 import Project from './Project';
-import Description from './Description';
 import { makeStyles } from '@material-ui/core/styles';
 import headshot from '../Assets/headshot-Kiran.jpg';
-import Typography from '@material-ui/core/Typography';
 
 const useStyles = makeStyles({
     image_wrapper: {
@@ -19,6 +17,10 @@ const useStyles = makeStyles({
         objectFit: 'cover',
         maxWidth: '100%',
         borderRadius: '50%'
+    },
+    information: {
+        display: 'flex',
+        justifyContent: 'center',
     }
 });
 
@@ -32,15 +34,8 @@ function Home() {
             <Grid container spacing={10}>
                 <Grid item xs={12}/>
 
-                <Grid item sm={12}>
-                    <Grid container spacing={10}>
-                        <Grid item xs={5}>
-                            <Information/>
-                        </Grid>
-                        <Grid item xs={7}>
-                            <Description/>
-                        </Grid>
-                    </Grid>
+                <Grid container item direction="row" justify="center" alignItems="center">
+                    <Information/>
                 </Grid>
                 <Grid item sm={12}> 
                     <Experience/>

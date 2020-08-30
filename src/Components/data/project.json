@@ -3,18 +3,28 @@
         "id": 1,
         "name": "WalkPHL",
         "description": "This application was built for people visiting the city of Philadelphia. Travelers can earn badges for first time visits at any specified landmark",
-        "picture": ""
+        "picture": "",
+        "link": "https://github.com/alyssahernandez/WalkPHL"
     },
     {
         "id": 2,
-        "name": "AlumniPortal",
-        "description": "After students graduate from the coding bootcamp Tech Elevator, they will be invited to join the alumni portal where the graduates can share information with each other",
-        "picture": ""
+        "name": "Alumni Portal",
+        "description": "After students graduate from the coding bootcamp Tech Elevator, they will be invited to join the alumni portal where the graduates can share information with each other (this is private)",
+        "picture": "",
+        "link": "https://github.com/kirandesimone"
     },
     {
         "id": 3,
         "name": "SocialApe",
         "description": "Users can write posts and share with the global feed (Twitter clone)",
-        "picture": ""
+        "picture": "",
+        "link": "https://github.com/kirandesimone/SocialApe"
+    },
+    {
+        "id" : 4,
+        "name": "Programmer's Pursuit",
+        "description": "Trivial Pursuit based game but with technical programming questions",
+        "picture": "",
+        "link": "https://github.com/alyssahernandez/Programmers-Pursuit"
     }
 ]

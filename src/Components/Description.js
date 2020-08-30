@@ -6,19 +6,22 @@ import theme from '../theme';
 
 
 const useStyles = makeStyles({
-    color: {
+    root: {
+        width: 550,
         backgroundColor: [theme.palette.primary.dark]
-    }
-})
+    },
+});
 
 function Description() {
     const classes = useStyles();
     return (
-        <Paper elevation={0} className={classes.color}>
+        <Paper elevation={0} className={classes.root}>
             <div>
                 <div>
                     <Typography variant='p' component='p' align='center'>
-                        Hi my name is Kiran DeSimone! This is my description.
+                        Hi my name is Kiran DeSimone and I recently graduated from the coding bootcamp Tech Elevator! 
+                        After three short months at Tech Elevator I learned Java, JavaScript, PostgreSQL, Spring MVC, Vue.js, TDD, and much more.
+                        During my free time I like to code, workout and watch anime (typical nerd).
                     </Typography>
                 </div>
             </div>     
