@@ -23,7 +23,7 @@ function Project() {
     const classes = useStyles();
     const projects = projectData.map(project => {
       return (
-        <div className={classes.card}>
+        <div key={project.id} className={classes.card}>
           <ProjectCard {...project}/>
         </div>
       )
