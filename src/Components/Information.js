@@ -9,6 +9,7 @@ import Tooltip from '@material-ui/core/Tooltip';
 import { useSpring, animated } from 'react-spring';
 
 
+
 const useStyles = makeStyles({
     root: {
         width: 550,
@@ -21,6 +22,7 @@ const useStyles = makeStyles({
 })
 
 
+
 function Information() {
     const classes = useStyles();
     const [flipped, set] = useState(false);
@@ -29,6 +31,7 @@ function Information() {
         transform: `perspective(600px) rotateX(${flipped ? 180 : 0}deg)`,
         config: { mass: 5, tension: 500, friction: 80}
     });
+    
 
     return (
         <div onClick={() => set(state => !state)}>

@@ -3,6 +3,7 @@ import Grid from '@material-ui/core/Grid';
 import Information from './Information';
 import Experience from './Experience';
 import Project from './Project';
+import Contact from './Contact';
 import { makeStyles } from '@material-ui/core/styles';
 import headshot from '../Assets/headshot-Kiran.jpg';
 
@@ -28,9 +29,13 @@ function Home() {
     const classes = useStyles();
     return(
         <div className="container">
+            <div>
+                <Contact/>
+            </div>
             <div className={classes.image_wrapper}>
                 <img src={headshot} alt="headshot" className={classes.profile_image}/>
             </div>
+            
             <Grid container spacing={10}>
                 <Grid item xs={12}/>
 
