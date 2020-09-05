@@ -59,6 +59,8 @@ function Contact(props) {
         <div>
           <Tooltip title="Contact Me!" placement="left-start">
             <MenuOpenIcon
+                fontSize="large"
+                style={{color: "black"}}
                 className="sidebar-toggle"
                 onClick={toggle}
             />
