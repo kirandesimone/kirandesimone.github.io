@@ -29,9 +29,7 @@ function Home() {
     const classes = useStyles();
     return(
         <div className="container">
-            <div>
-                <Contact/>
-            </div>
+            <Contact/>
             <div className={classes.image_wrapper}>
                 <img src={headshot} alt="headshot" className={classes.profile_image}/>
             </div>

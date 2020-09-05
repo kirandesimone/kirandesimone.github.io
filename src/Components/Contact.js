@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Keyframes, animated } from 'react-spring/renderprops'
-import { Tooltip, Avatar, TextField } from '@material-ui/core';
+import { Tooltip, Avatar, TextField, Button } from '@material-ui/core';
 import MenuOpenIcon from '@material-ui/icons/MenuOpen';
 import delay from 'delay'
 import '../App.css';
@@ -33,14 +33,21 @@ const Content = Keyframes.Trail({
 
 
 const items = [
-    <Avatar/>,
+    <Avatar style={{backgroundColor: '#E85A4F', color: 'white'}}>
+        G
+    </Avatar>,
     <TextField
         placeholder="Email"
     />,
     <TextField 
-        multiline 
+        multiline
+        placeholder="Content"
+        variant="outlined"
         rowsMax={3}
-    />
+    />,
+    <Button>
+
+    </Button>
   ]
 
 
@@ -84,9 +91,12 @@ function Contact(props) {
                         transform: x.interpolate(x => `translate3d(${x}%,0,0)`),
                         ...props,
                       }}>
-                      <form className={i === 0 ? 'middle' : ''}>
-                        {item}
-                      </form>
+                        <form>
+                            <div className="form">
+                                {item}
+                            </div>
+                        </form>
+                        
                     </animated.div>
                   )}
                 </Content>

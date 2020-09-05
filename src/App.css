@@ -40,13 +40,6 @@ a {
   cursor: pointer;
 }
 
-.login-form-forgot {
-  float: right;
-}
-
-.login-form-button {
-  width: 100%;
-}
 
 .ant-avatar {
   width: 50px;
@@ -56,15 +49,12 @@ a {
   font-size: 3em !important;
 }
 
-.middle .ant-form-item-control {
+.form {
   display: flex;
   justify-content: center;
-}
-
-.sidebar .ant-form-item {
-  margin: 0;
+  padding-top: 10px;
 }
 
 .sidebar .ant-form-item-control {
-  line-height: 29px;
+  
 }
