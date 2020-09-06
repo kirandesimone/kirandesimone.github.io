@@ -11,6 +11,7 @@ const useStyles = makeStyles({
     image_wrapper: {
         textAlign: 'center',
         position: 'relative',
+        paddingTop: 30
     },
     profile_image: {
         width: 200,

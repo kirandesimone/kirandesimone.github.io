@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Keyframes, animated } from 'react-spring/renderprops'
 import { Tooltip, Avatar, TextField, Button } from '@material-ui/core';
 import MenuOpenIcon from '@material-ui/icons/MenuOpen';
+import Icon from '@material-ui/core/Icon'
 import delay from 'delay'
 import '../App.css';
 
@@ -42,11 +43,17 @@ const items = [
     <TextField 
         multiline
         placeholder="Content"
+        defaultValue="Currently setting up SendGrid for email but for now you can just email me at kirandesimone@gmail.com"
         variant="outlined"
         rowsMax={3}
     />,
-    <Button>
-
+    <Button 
+        variant="contained" 
+        type="submit" 
+        color="primary"
+        endIcon={<Icon>send</Icon>}
+    >
+        Send
     </Button>
   ]
 
